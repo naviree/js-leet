@@ -14,3 +14,5 @@ node_modules/strip-ansi/index.js
 node_modules/strip-ansi/license
 node_modules/strip-ansi/package.json
 node_modules/strip-ansi/readme.md
+.idea/git_toolbox_prj.xml
+.gitignore
