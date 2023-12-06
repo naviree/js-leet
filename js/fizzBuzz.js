@@ -21,12 +21,11 @@ const fizzBuzz = function(n) {
             str += "Buzz"
         }
         if (str === ""){
-            str += `${i}`
+            str += i
         }
         totalArray.push(str);
     }
-    console.log(totalArray);
+   return totalArray;
 
 }
-
-fizzBuzz(num);
+console.log(fizzBuzz(num))
