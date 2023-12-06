@@ -15,17 +15,21 @@ let totalArray = []
 const fizzBuzz = function(n) {
 
     for (let i = 1; i <= num; i++) {
-        if (i % 3 === 0 && i % 5 ===0) {
-            totalArray.push("FizzBuzz");
-        } else if (i % 3 === 0 ) {
-            totalArray.push("Fizz")
-        } else if (i % 5 === 0) {
-            totalArray.push("Buzz");
-        } else {
-            totalArray.push(i);
+        let str = "";
+
+        if (i % 3 === 0) {
+            str += "Fizz"
         }
+        if (i % 5 === 0) {
+            str += "Buzz"
+        }
+        if (str === ""){
+            str += `${i}`
+        }
+        totalArray.push(str);
     }
     console.log(totalArray);
 
 }
+
 fizzBuzz(num);
