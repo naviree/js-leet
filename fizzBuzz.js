@@ -1,6 +1,3 @@
-
-const prompt = require("prompt-sync")({sigint:true})
-
 // https://leetcode.com/problems/fizz-buzz/
 /**
  * @param {number} n
@@ -8,7 +5,7 @@ const prompt = require("prompt-sync")({sigint:true})
  */
 
 
-num = prompt("Please enter a number:")
+let num = 15;
 
 
 let totalArray = []
